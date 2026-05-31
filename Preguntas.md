@@ -41,12 +41,33 @@
 
 ### Preguntas teóricas:
 - ¿Qué es la regularización en el contexto del entrenamiento de redes neuronales?
+
+La regularización se basa en un conjunto de métodos para lograr los ajustes correctos a la hora de entrenar una red neuronal. Ésta se utiliza para corregir el overfitting, y en lugar de conseguir más datos, se utilizan estos métodos que corrigen el problema del overfitting.
 - ¿Cuál es la diferencia entre `Dropout` y regularización `L2` (weight decay)?
+
+Estas técnicas son muy distintas. El dropout se cracteriza por desactivar neuronas de forma alatoria en cada entrenamiento. De esta forma, se consigue que las neuronas sean más independientes entre sí. En cambio, la regularización L2 añade la suma del cuadrado de los pesos multiplicada por un parámetro $\lambda$ a la función de pérdida (loss function). El parámetro $\lambda$ permite controlar la penalización. A partir de este agregado, se penalizan los valores extremos, y los pesos de las neuronas se distribuyen de forma más uniforme, y ninguno termina siendo muy grande comparado a los otros. 
+
 - ¿Qué es `BatchNorm` y cómo ayuda a estabilizar el entrenamiento?
+
+Cuando nuestra red tiene muchas capas, la pequeña varianza en los parámetros de entrada puede suponer una alta varianza en capas finales. Este problema se conoce como internal covariance shift. Esto se puede entender de forma que la salida de cada capa es la entrada de la siguiente, por lo que si hay cambios en la entrada de las capas que provoquen cambios en las salidas de estas, las capas tienen que aprender a partir de lo que se conoce como un obejitvo móvil, ya que no estabilidad en el entrenamiento.
+
+BatchNorm propone una capa intermedia para las redes neuronales profundas, de forma que logre estabilizar el entrenamiento al mitigar el internal covariance shift entre las capas de la red. Para lograrlo, BatchNorm calcula la media y la varianza de cada característica dentro de un mini-batch para forzar sus activaciones a una escala estándar (media 0 y varianza 1), aplicando luego una transformación con dos parámetros entrenables (γ y β) que preservan la capacidad no lineal del modelo. Este proceso evita que los gradientes se desvanezcan o exploten, permitiendo el uso de tasas de aprendizaje más altas, reduciendo la dependencia de una inicialización perfecta de los pesos y actuando además como un regularizador ligero que acelera drásticamente la convergencia del entrenamiento.
+
 - ¿Cómo se relaciona `BatchNorm` con la velocidad de convergencia?
+
+
+
 - ¿Puede `BatchNorm` actuar como regularizador? ¿Por qué?
+
+
+
 - ¿Qué efectos visuales podrías observar en TensorBoard si hay overfitting?
+
+
+
 - ¿Cómo ayuda la regularización a mejorar la generalización del modelo?
+
+
 
 ### Actividades de modificación:
 1. Agregar Dropout en la arquitectura MLP:
