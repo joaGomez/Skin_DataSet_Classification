@@ -1,0 +1,15 @@
+                            precision    recall  f1-score   support
+
+         Actinic keratosis       0.00      0.00      0.00        20
+         Atopic Dermatitis       0.67      0.62      0.65        16
+          Benign keratosis       0.70      0.35      0.47        20
+            Dermatofibroma       0.22      0.60      0.32        20
+         Melanocytic nevus       0.44      0.75      0.56        20
+                  Melanoma       0.33      0.05      0.09        20
+   Squamous cell carcinoma       0.50      0.05      0.09        20
+Tinea Ringworm Candidiasis       0.18      0.46      0.26        13
+           Vascular lesion       0.69      0.55      0.61        20
+
+                  accuracy                           0.37       169
+                 macro avg       0.41      0.38      0.34       169
+              weighted avg       0.42      0.37      0.33       169

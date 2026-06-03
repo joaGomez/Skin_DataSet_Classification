@@ -1,0 +1,15 @@
+artifact_uri: file:///home/_joacoo/Workspace/2C2026/Redes/Skin_DataSet_Classification/mlruns/131556832197480084/7dbf7fb46ea74b7bbfc5b9e626ca720b/artifacts
+end_time: 1780463120976
+entry_point_name: ''
+experiment_id: '131556832197480084'
+lifecycle_stage: active
+run_id: 7dbf7fb46ea74b7bbfc5b9e626ca720b
+run_name: righteous-ram-828
+run_uuid: 7dbf7fb46ea74b7bbfc5b9e626ca720b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780463028091
+status: 3
+tags: []
+user_id: _joacoo

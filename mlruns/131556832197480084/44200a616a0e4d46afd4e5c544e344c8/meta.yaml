@@ -1,0 +1,15 @@
+artifact_uri: file:///home/_joacoo/Workspace/2C2026/Redes/Skin_DataSet_Classification/mlruns/131556832197480084/44200a616a0e4d46afd4e5c544e344c8/artifacts
+end_time: 1780462591555
+entry_point_name: ''
+experiment_id: '131556832197480084'
+lifecycle_stage: active
+run_id: 44200a616a0e4d46afd4e5c544e344c8
+run_name: chill-robin-961
+run_uuid: 44200a616a0e4d46afd4e5c544e344c8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780462454590
+status: 3
+tags: []
+user_id: _joacoo

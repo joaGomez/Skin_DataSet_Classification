@@ -1,0 +1,15 @@
+artifact_uri: file:///home/_joacoo/Workspace/2C2026/Redes/Skin_DataSet_Classification/mlruns/131556832197480084/9127c7b2f58f4d719f85eb6720741d30/artifacts
+end_time: 1780468808747
+entry_point_name: ''
+experiment_id: '131556832197480084'
+lifecycle_stage: active
+run_id: 9127c7b2f58f4d719f85eb6720741d30
+run_name: bouncy-foal-641
+run_uuid: 9127c7b2f58f4d719f85eb6720741d30
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780468771507
+status: 3
+tags: []
+user_id: _joacoo

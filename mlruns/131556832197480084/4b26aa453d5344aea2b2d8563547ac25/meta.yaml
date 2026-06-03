@@ -1,0 +1,15 @@
+artifact_uri: file:///home/_joacoo/Workspace/2C2026/Redes/Skin_DataSet_Classification/mlruns/131556832197480084/4b26aa453d5344aea2b2d8563547ac25/artifacts
+end_time: 1780463377662
+entry_point_name: ''
+experiment_id: '131556832197480084'
+lifecycle_stage: active
+run_id: 4b26aa453d5344aea2b2d8563547ac25
+run_name: casual-fowl-301
+run_uuid: 4b26aa453d5344aea2b2d8563547ac25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780463250423
+status: 3
+tags: []
+user_id: _joacoo

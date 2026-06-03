@@ -1,0 +1,15 @@
+artifact_uri: file:///home/_joacoo/Workspace/2C2026/Redes/Skin_DataSet_Classification/mlruns/131556832197480084/7e6a2140a2484e9192b38be73a9f48e5/artifacts
+end_time: 1780465421559
+entry_point_name: ''
+experiment_id: '131556832197480084'
+lifecycle_stage: active
+run_id: 7e6a2140a2484e9192b38be73a9f48e5
+run_name: unruly-quail-924
+run_uuid: 7e6a2140a2484e9192b38be73a9f48e5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780465328496
+status: 3
+tags: []
+user_id: _joacoo

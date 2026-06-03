@@ -1,0 +1,15 @@
+artifact_uri: file:///home/_joacoo/Workspace/2C2026/Redes/Skin_DataSet_Classification/mlruns/131556832197480084/ea81a9b0ad684dd4a5fa0ea6225df35f/artifacts
+end_time: 1780464402257
+entry_point_name: ''
+experiment_id: '131556832197480084'
+lifecycle_stage: active
+run_id: ea81a9b0ad684dd4a5fa0ea6225df35f
+run_name: omniscient-fish-776
+run_uuid: ea81a9b0ad684dd4a5fa0ea6225df35f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780464273831
+status: 3
+tags: []
+user_id: _joacoo
